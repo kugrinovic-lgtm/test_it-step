@@ -17,7 +17,7 @@ def create_table():
         FOREIGN KEY (city_id) REFERENCES cities(id)
     )
     ''')
-    conn.commit()
+    conn.commit() #dd
 
 def add_cities():
     cities = ["Warszawa", "Krakow", "Gdansk"]
